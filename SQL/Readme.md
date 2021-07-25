@@ -25,6 +25,12 @@ Dealing with subset of FIFA 19 players dataset
   * Value: Current value of player in Euroes
   * Wage, Preferred.Foot, Jersey.Number, Joined, Height
   * Weight, Penalties
-* 
+* `Question's`: Important is Asking right questiong and getting answer
+  * Q1 => Total number of player?
+  * Q2 => Nationality distribution?
+  * Q3 => Total wage of player? Wage Distribution, average, stdev, highest/lowes individual
+  * Q4 => Rating overall best/worst ?
+  * Q5 => Club best/worst , can be obtained by observing ratings of player related with Club as particular Club rating card in not in dataset
+  * Q6 =>
 
  
