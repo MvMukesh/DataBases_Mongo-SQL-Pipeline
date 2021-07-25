@@ -1,2 +1,2 @@
-# Note-DS
+# Notes-DS
 Data Science Notes 
