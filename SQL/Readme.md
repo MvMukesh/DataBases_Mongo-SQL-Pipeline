@@ -85,15 +85,7 @@ Application Part
     * select count(*) from players where joined >= '2018-05-20' and joined < '2019-04-10';
   * `Total number of players joining there respective club date/year wise?` `Most important filtering`
     * select count(*) as freq, joined from players group by joined; it shows some zeroes which look like
-+------+---------------------+
-| freq | joined              |
-+------+---------------------+
-|    1 | 1991-06-01 00:00:00 |
-|    2 | 1998-01-01 00:00:00 |
-|    1 | 1998-07-01 00:00:00 |
-|    1 | 1999-01-01 00:00:00 |
-|    1 | 2000-01-01 00:00:00 |
-|    1 | 2000-07-01 00:00:00 |
+![image](https://user-images.githubusercontent.com/26667491/126998828-faadbb90-6070-4acd-8b4d-83cc0203bf47.png)
  
  
 `NOTES:`
