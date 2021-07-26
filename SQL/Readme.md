@@ -5,7 +5,7 @@ Dealing with subset of FIFA 19 players dataset
 * `Data Eyeballing` => Checking data manually say in Excell
 * `Data Dictionary` => Makes us understand Content, Structure, Format of data
 * `Question's` => Key questions nead to be answered 
-* `Analyzing Data with Creating Table Structure` => Create table structure for data to put in SQL
+* `Analyzing Data and Creating Table Structure` => Create table structure for data to put in SQL
 * `Loading data to MYSQL table`
 * `Data Analysis`
   * `Simple Queries`
@@ -17,20 +17,41 @@ Dealing with subset of FIFA 19 players dataset
   * Put data filter to get more about every column
   * Column after column eyeballing => to understand data type
 * `Data Dictionary`: Describes what each variable means in dataset
-  * ID: unique identification number for player
-  * Name, Age, Nationality
-  * Overall: overall rating of player
-  * Potential: potential rating of player
-  * Club
-  * Value: Current value of player in Euroes
-  * Wage, Preferred.Foot, Jersey.Number, Joined, Height
-  * Weight, Penalties
+  * ID [int(11)]: unique identification number for player
+  * Name [varchar(255)], Age [int(2)], Nationality [varchar(255)]
+  * Overall [int(11)]: overall rating of player
+  * Potential [int(11)]: potential rating of player
+  * Club [varchar(255)]
+  * Value [int(11)]: Current value of player in Euroes
+  * Wage [int(11)], Preferred.Foot [enum('Left','Right')], Jersey.Number [int(11)], Joined [date], Height [varchar(10)]
+  * Weight [int(3)], Penalties [int(3)]
 * `Question's`: Important is Asking right questiong and getting answer
   * Q1 => Total number of player?
   * Q2 => Nationality distribution?
   * Q3 => Total wage of player? Wage Distribution, average, stdev, highest/lowes individual
   * Q4 => Rating overall best/worst ?
-  * Q5 => Club best/worst , can be obtained by observing ratings of player related with Club as particular Club rating card in not in dataset
-  * Q6 =>
+  * Q5 => Club best/worst, top5, bottom5, can be obtained by observing ratings of player related with Club as particular Club rating card in not in dataset
+  * Q6 => Preferred.Foot with rating , find which foot player playes good?, diffrent Foot distribution?
+  * Q7 => Jersey.Number with rating , Luck factor associated with jersey or Value or Penalties or rating ? it is hard to define luck
+  * Q8 => Club name starting with any lucky Letter
+  * Q9 => Palyer joining respective Clubs in a particular timeline or date?
+  * Q10 => Player joining there Clubs datewise? On each date how many player joined club?
+  * Q11 => player joining Club Yearly?........... and many more other possible question's
+* `Analyzing Data and Creating Table Structure`: 
+  * Create database name_of_db;
+  * use name_of_db;
+  * create table players( ID int,  name varchar(255) , age int(3) , nationality varchar(255) , overallrating int , potentialrating int,  club varchar(255),  value int,  wage int,  preferredfoot ENUM(“Left”, ”Right”) , jerseynumber int , joined datetime,  height varchar(10),   weight int(3),  penalties int(3) );
+  * desc players;
+* `Loading data to MYSQL table`: from csv file
+  * load data local infile "csv_file_path" into table players columns terminated by "," optionally enclosed by "'" ignore 1 lines;
+    * Always have a firm luck a Warning, to make sure all data types are correct and etc....
+  * warnings
+    * To import date it must be formates as `YYY-MM-DD` to avoide fute errors as MYsql cant load lond dates i.e June 23 2800
+  * select * from players limit 10\G;  => row wise data retrival
+* `Question's`
+  * Total number of players in dataset?
+    * select count(*) from players;
 
- 
+`NOTES:`
+* Indexing helps data retrival very fast
+* Indexing cannot be done on all column as increase space complexity
