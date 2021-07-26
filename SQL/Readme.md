@@ -83,9 +83,11 @@ Application Part
     * select count(*) as freq, nationality from players where club like "M%" group by nationality;
   * `Total number of players who have joined respective club in date range of 2018-05-20 to 2019-04-10 (both inclusive i.e add = sign)?` `Most important filtering`
     * select count(*) from players where joined >= '2018-05-20' and joined < '2019-04-10';
-  * `Total number of players joining there respective club date/year wise?` `Most important filtering`
-    * select count(*) as freq, joined from players group by joined; it shows some zeroes which look like
-![image](https://user-images.githubusercontent.com/26667491/126998828-faadbb90-6070-4acd-8b4d-83cc0203bf47.png)
+  * `Total number of players joining there respective club date wise?` `Most important filtering`
+    * select count(*) as freq, joined from players group by joined; it shows some zeroes which look like ![image](https://user-images.githubusercontent.com/26667491/126998828-faadbb90-6070-4acd-8b4d-83cc0203bf47.png)
+    * select count(*) as freq, date (joined) from players group by joined;
+      * `Notice:` use of date function as date are stored as time stemp
+      *  grouping can be done also by joins
  
  
 `NOTES:`
