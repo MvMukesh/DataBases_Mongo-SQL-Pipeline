@@ -87,9 +87,11 @@ Application Part
     * select count(*) as freq, joined from players group by joined; it shows some zeroes which look like ![image](https://user-images.githubusercontent.com/26667491/126998828-faadbb90-6070-4acd-8b4d-83cc0203bf47.png)
     * select count(*) as freq, date (joined) from players group by joined;
       * `Notice:` use of date function as date are stored as time stemp
-      *  grouping can be done also by joins
- 
+      *  grouping can be done also by joined
+    * select count(*) as freq, date (joined) from players group by date (joined);
+  * `Total number of players joining there respective club year wise?` `Most important filtering`
+    * select count(*) as freq, year (joined) from players group by year (joined);   year function takes particular date cinvert it into year
  
 `NOTES:`
 * Indexing helps data retrival very fast
-* Indexing cannot be done on all column as increase space complexity
+* Indexing cannot be done on all column as increases space complexity
