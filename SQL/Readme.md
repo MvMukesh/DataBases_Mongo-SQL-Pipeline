@@ -17,14 +17,14 @@ Dealing with subset of FIFA 19 players dataset
   * Put data filter to get more about every column
   * Column after column eyeballing => to understand data type
 * `Data Dictionary`: Describes what each variable means in dataset
-  * ID [int(11)]: unique identification number for player
-  * Name [varchar(255)], Age [int(2)], Nationality [varchar(255)]
-  * Overall [int(11)]: overall rating of player
-  * Potential [int(11)]: potential rating of player
-  * Club [varchar(255)]
-  * Value [int(11)]: Current value of player in Euroes
-  * Wage [int(11)], Preferred.Foot [enum('Left','Right')], Jersey.Number [int(11)], Joined [date], Height [varchar(10)]
-  * Weight [int(3)], Penalties [int(3)]
+  * `ID [int(11)]`: unique identification number for player
+  * `Name [varchar(255)]`, `Age [int(2)]`, `Nationality [varchar(255)]`
+  * `Overall [int(11)]`: overall rating of player
+  * `Potential [int(11)]`: potential rating of player
+  * `Club [varchar(255)]`
+  * `Value [int(11)]`: Current value of player in Euroes
+  * `Wage [int(11)]`, `Preferred.Foot [enum('Left','Right')]`, `Jersey.Number [int(11)]`, `Joined [date]`, `Height [varchar(10)]`
+  * `Weight [int(3)]`, `Penalties [int(3)]`
 * `Question's`: Important is Asking right questiong and getting answer
   * Q1 => Total number of player?
   * Q2 => Nationality distribution?
