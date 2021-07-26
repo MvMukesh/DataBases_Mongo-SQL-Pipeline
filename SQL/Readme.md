@@ -40,7 +40,7 @@ Dealing with subset of FIFA 19 players dataset
 ---
 Application Part
 ---
-* "`Analyzing Data and Creating Table Structure`": 
+* `Analyzing Data and Creating Table Structure`: 
   * Create database name_of_db;
   * use name_of_db;
   * create table players( ID int,  name varchar(255) , age int(3) , nationality varchar(255) , overallrating int , potentialrating int,  club varchar(255),  value int,  wage int,  preferredfoot ENUM(“Left”, ”Right”) , jerseynumber int , joined datetime,  height varchar(10),   weight int(3),  penalties int(3) );
@@ -73,7 +73,29 @@ Application Part
     * select sum(overallrating) as total_rating, club from players group by club order by total_rating desc limit 3;
     * select avg(overallrating) as avg_rating, club from players group by club order by avg_rating desc;
     * select avg(overallrating) as avg_rating, club from players group by club order by avg_rating desc limit 3;
-
+* `Data Analysis (Advanced Queries) Question's`:
+  * What is Player prefered foot distribution?
+    * select count(*) as freq, preferredfoot from players group by 2 order by 1 desc;  => 2 & 1 r numeric position of variables preferredfoot & freq
+  * Luckey JerseyNumber? (defining asumption for luckey as this is subjective thing here => for highest total wage)
+    * select sum(wage) as total_wage, jerseynumber from players group by jerseynumber;  
+    * select sum(wage) as total_wage, jerseynumber from players group by jerseynumber order by total_wage desc limit 1;
+  * Frequeny distribution of nationalities among players whose Club name starts with M?
+    * select count(*) as freq, nationality from players where club like "M%" group by nationality;
+  * `Total number of players who have joined respective club in date range of 2018-05-20 to 2019-04-10 (both inclusive i.e add = sign)?` `Most important filtering`
+    * select count(*) from players where joined >= '2018-05-20' and joined < '2019-04-10';
+  * `Total number of players joining there respective club date/year wise?` `Most important filtering`
+    * select count(*) as freq, joined from players group by joined; it shows some zeroes which look like
++------+---------------------+
+| freq | joined              |
++------+---------------------+
+|    1 | 1991-06-01 00:00:00 |
+|    2 | 1998-01-01 00:00:00 |
+|    1 | 1998-07-01 00:00:00 |
+|    1 | 1999-01-01 00:00:00 |
+|    1 | 2000-01-01 00:00:00 |
+|    1 | 2000-07-01 00:00:00 |
+ 
+ 
 `NOTES:`
 * Indexing helps data retrival very fast
 * Indexing cannot be done on all column as increase space complexity
