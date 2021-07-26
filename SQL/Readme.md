@@ -37,6 +37,9 @@ Dealing with subset of FIFA 19 players dataset
   * Q9 => Palyer joining respective Clubs in a particular timeline or date?
   * Q10 => Player joining there Clubs datewise? On each date how many player joined club?
   * Q11 => player joining Club Yearly?........... and many more other possible question's
+---
+Application Part
+---
 * `Analyzing Data and Creating Table Structure`: 
   * Create database name_of_db;
   * use name_of_db;
@@ -48,9 +51,28 @@ Dealing with subset of FIFA 19 players dataset
   * warnings
     * To import date it must be formates as `YYY-MM-DD` to avoide fute errors as MYsql cant load lond dates i.e June 23 2800
   * select * from players limit 10\G;  => row wise data retrival
-* `Question's`
+* `Data Analysis (Simple Queries) Question's`:
   * Total number of players in dataset?
     * select count(*) from players;
+  * Different Nationality in dataset?
+    * select count(distinct nationality) as number_of_nationalities from players;
+  * Total wages given to playesr with avg,std?
+    * select sum(wage) as total_wage, avg(wage) as avg_wage, stddev(wage) as stddev_wage from players;
+  * Highest number of player's by Nationality, top_3 nationality and there player count (Frequncy Distribution of Nationality)
+    * select count(*) as freq, nationality from players group by nationality;  (players_freq | nationality)
+    * select count(*) as freq, nationality from players group by nationality order by freq desc limit 3;
+  * Highest/lowest/overall Wage in dataset and which player associated with it?
+    * select max(wage) from players; 
+    * select Name from players where wage = max(wage) value;  => can be solved using `subquary`
+    * select Name from players where wage = (select max(wage) from players);
+    * select min(wage) from players;
+    * select Name from players where wage = (select min(wage) from players);
+    * select Name from players where overallrating = (select max(overallrating) from players);
+  * Top(highest total/ highest avg. ratins) Clubs based on there player ratings?
+    * select sum(overallrating) as total_rating, club from players group by club order by total_rating desc;
+    * select sum(overallrating) as total_rating, club from players group by club order by total_rating desc limit 3;
+    * select avg(overallrating) as avg_rating, club from players group by club order by avg_rating desc;
+    * select avg(overallrating) as avg_rating, club from players group by club order by avg_rating desc limit 3;
 
 `NOTES:`
 * Indexing helps data retrival very fast
