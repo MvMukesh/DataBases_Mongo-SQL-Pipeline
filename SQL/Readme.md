@@ -40,7 +40,7 @@ Dealing with subset of FIFA 19 players dataset
 ---
 Application Part
 ---
-* `Analyzing Data and Creating Table Structure`: 
+* "`Analyzing Data and Creating Table Structure`": 
   * Create database name_of_db;
   * use name_of_db;
   * create table players( ID int,  name varchar(255) , age int(3) , nationality varchar(255) , overallrating int , potentialrating int,  club varchar(255),  value int,  wage int,  preferredfoot ENUM(“Left”, ”Right”) , jerseynumber int , joined datetime,  height varchar(10),   weight int(3),  penalties int(3) );
