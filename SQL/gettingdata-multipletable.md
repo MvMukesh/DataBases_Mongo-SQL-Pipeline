@@ -9,7 +9,7 @@
 `Objective`   
 * To get name of all users who have applied for job_id 2
 * There salary, current designaition along with job_degisnation and hiring company they applied to ![image](https://user-images.githubusercontent.com/26667491/127119897-a3099847-fd9d-4122-b08c-fbe423b45dfd.png)
-`Steps Involved`
-* 
+`Types of joins` ![image](https://user-images.githubusercontent.com/26667491/127125822-98ed0657-0244-4060-b982-2052b9974121.png)
+
 
 
