@@ -1,4 +1,4 @@
-# Getting Data From Multiple Tables using Joins and Subquery(query within a query)
+# Getting Data From Multiple Tables using `Joins` and `Subquery`(query within a query)
 `Covered`
 * Joins there types & application by joining two table
     * Self join 
@@ -15,4 +15,10 @@
 * `Left join` Takes all record from left table and only matching or corresponding record from right table
 * `Key` same matching columns in both tables on which data is being matched
 
+`Left join application Exaple`
+* `To find Phone number/name of users who atleast have done one purchase/active user?`
+![image](https://user-images.githubusercontent.com/26667491/127127085-c0802aee-65ee-4673-a572-e3f3662d637a.png)
+* `User ID field is common key in both table`
+* Putting Purchase table in left as hunt is for details of users/customers who ever did purchase any stuff and Contact Detail on right, perform a left join
+`Query` => `select ContactDetails.Name, ContactDetails.PhoneNumber from Purchases left join ContactDetails on Purchases.UserID = ContactDetails.UserID`
 
