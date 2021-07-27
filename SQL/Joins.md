@@ -28,15 +28,19 @@
    * Final result can also be joined to another table
 
 * `Inner join` Used appx 9% of time in application
+
 ![image](https://user-images.githubusercontent.com/26667491/127129616-95e3b54b-e304-471c-84da-a56588b16b04.png)
 
 * `Cartesian/Cross join` rare use
+
 ![image](https://user-images.githubusercontent.com/26667491/127130016-1e66ff65-85ef-47a5-9a04-9e2c02baed21.png)
 
 * `Right join` rare use
+
 ![image](https://user-images.githubusercontent.com/26667491/127130194-cc335cf5-370b-4c79-95c8-b6e8ef4d8ca8.png)
 
 * `Self join` 
+
 ![image](https://user-images.githubusercontent.com/26667491/127130538-691c1f86-625b-4213-91aa-7fe61ca6ecf0.png)
    * join of 2 copies of same table 
 
