@@ -9,7 +9,10 @@
 `Objective`   
 * To get name of all users who have applied for job_id 2
 * There salary, current designaition along with job_degisnation and hiring company they applied to ![image](https://user-images.githubusercontent.com/26667491/127119897-a3099847-fd9d-4122-b08c-fbe423b45dfd.png)
-`Types of joins` ![image](https://user-images.githubusercontent.com/26667491/127125822-98ed0657-0244-4060-b982-2052b9974121.png)
 
+`Types of joins` with uses stats => ![image](https://user-images.githubusercontent.com/26667491/127125822-98ed0657-0244-4060-b982-2052b9974121.png)
+![image](https://user-images.githubusercontent.com/26667491/127126270-cc16ef8a-9a6e-4cd4-a98e-2b586008abcc.png)
+* `Left join` Takes all record from left table and only matching or corresponding record from right table
+* `Key` same matching columns in both tables on which data is being matched
 
 
