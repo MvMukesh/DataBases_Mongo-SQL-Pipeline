@@ -5,5 +5,11 @@
 * Subquery
 ---
 `Overview`
-* Joins => Clause, helps retrive data from multiple tables ![image](https://user-images.githubusercontent.com/26667491/127117631-e2848c5f-11db-4d59-81c1-8b84780b8642.png) ![image](https://user-images.githubusercontent.com/26667491/127117734-541fc113-72db-47b8-955d-d213ae231fad.png)
+* Joins => Clause, helps retrive data from multiple tables ![image](https://user-images.githubusercontent.com/26667491/127117631-e2848c5f-11db-4d59-81c1-8b84780b8642.png) ![image](https://user-images.githubusercontent.com/26667491/127117893-4a09d8be-aee0-4e16-bfb1-240599748127.png)
+`Objective`   
+* To get name of all users who have applied for job_id 2
+* There salary, current designaition along with job_degisnation and hiring company they applied to ![image](https://user-images.githubusercontent.com/26667491/127119897-a3099847-fd9d-4122-b08c-fbe423b45dfd.png)
+`Steps Involved`
+* 
+
 
