@@ -5,4 +5,5 @@
 * Subquery
 ---
 `Overview`
-* Joins => Clause, helps retrive data from multiple tables ![image](https://user-images.githubusercontent.com/26667491/127117631-e2848c5f-11db-4d59-81c1-8b84780b8642.png)
+* Joins => Clause, helps retrive data from multiple tables ![image](https://user-images.githubusercontent.com/26667491/127117631-e2848c5f-11db-4d59-81c1-8b84780b8642.png) ![image](https://user-images.githubusercontent.com/26667491/127117734-541fc113-72db-47b8-955d-d213ae231fad.png)
+
