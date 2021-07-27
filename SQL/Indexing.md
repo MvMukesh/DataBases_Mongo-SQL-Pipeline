@@ -14,4 +14,4 @@
   *  Link [b-tree](https://www.codespeedy.com/how-to-implement-binary-tree-in-python/)
 
 ###`Relationships`
-![image](https://user-images.githubusercontent.com/26667491/127119897-a3099847-fd9d-4122-b08c-fbe423b45dfd.png)
+![image](https://user-images.githubusercontent.com/26667491/127117631-e2848c5f-11db-4d59-81c1-8b84780b8642.png) ![image](https://user-images.githubusercontent.com/26667491/127117893-4a09d8be-aee0-4e16-bfb1-240599748127.png)
