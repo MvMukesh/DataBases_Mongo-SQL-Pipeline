@@ -24,4 +24,13 @@
 ### `Table Constraints`
 * Puts constraints on data inserted in table, violating data constraints is not allowed in MYSQL
 
- ### `Types of Constraints`
+### `Types of Constraints`
+* ![image](https://user-images.githubusercontent.com/26667491/127136857-84b963c7-ac86-4abb-a591-92cacbc29e57.png)
+* `Primary key`
+  * In a table only one primary key is possible (one column of table can be a primary key )
+  * used to identify rows, so it must be unique
+  * `used to model one-to-one relationship`
+* `Foreign key`
+  * Example: user_id field in applied table is foreign key, of, user_id field of user detail table
+  * Reason is we want user of only user_detail table to apply
+  * `used ot model one-to-many relationship`
