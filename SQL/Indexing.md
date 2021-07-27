@@ -13,5 +13,15 @@
   *  So insert and update booth takes some time to execute
   *  Link [b-tree](https://www.codespeedy.com/how-to-implement-binary-tree-in-python/)
 
-###`Relationships`
+### `Relationships`
+
 ![image](https://user-images.githubusercontent.com/26667491/127117631-e2848c5f-11db-4d59-81c1-8b84780b8642.png) ![image](https://user-images.githubusercontent.com/26667491/127117893-4a09d8be-aee0-4e16-bfb1-240599748127.png)
+* id_user, id_job have relationship with two tables user and job table
+
+ ### `Types of Relationships`
+* ![image](https://user-images.githubusercontent.com/26667491/127135895-4909d694-b498-484a-a293-de414737f5e1.png)
+
+### `Table Constraints`
+* Puts constraints on data inserted in table, violating data constraints is not allowed in MYSQL
+
+ ### `Types of Constraints`
