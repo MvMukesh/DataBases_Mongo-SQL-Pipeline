@@ -15,10 +15,28 @@
 * `Left join` Takes all record from left table and only matching or corresponding record from right table
 * `Key` same matching columns in both tables on which data is being matched
 
-`Left join application Exaple`
+`Left join application Example` used 99% of time
 * `To find Phone number/name of users who atleast have done one purchase/active user?`
 ![image](https://user-images.githubusercontent.com/26667491/127127085-c0802aee-65ee-4673-a572-e3f3662d637a.png)
 * `User ID field is common key in both table`
 * Putting Purchase table in left as hunt is for details of users/customers who ever did purchase any stuff and Contact Detail on right, perform a left join
 `Query` => `select ContactDetails.Name, ContactDetails.PhoneNumber from Purchases left join ContactDetails on Purchases.UserID = ContactDetails.UserID`
+* `NOTE:` 
+   * Key name nead not to be same all time
+   * target table must be put at left most in all situation as only data of leftmost table is required
+   * Concept of join is not for only two table
+   * Final result can also be joined to another table
+
+* `Inner join` Used appx 9% of time in application
+![image](https://user-images.githubusercontent.com/26667491/127129616-95e3b54b-e304-471c-84da-a56588b16b04.png)
+
+* `Cartesian/Cross join` rare use
+![image](https://user-images.githubusercontent.com/26667491/127130016-1e66ff65-85ef-47a5-9a04-9e2c02baed21.png)
+
+* `Right join` rare use
+![image](https://user-images.githubusercontent.com/26667491/127130194-cc335cf5-370b-4c79-95c8-b6e8ef4d8ca8.png)
+
+* `Self join` 
+![image](https://user-images.githubusercontent.com/26667491/127130538-691c1f86-625b-4213-91aa-7fe61ca6ecf0.png)
+   * join of 2 copies of same table 
 
