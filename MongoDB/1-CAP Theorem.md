@@ -1,4 +1,5 @@
 # CAP Theorem
+### `CAP Theorem states that a distributed system can only have 2 out of these 3 properties at any given time `
 ---
 ![image](https://user-images.githubusercontent.com/26667491/127171483-3a0f2dc9-8ae2-4a73-8ac3-a71a3806452c.png)
 * This problem of distributed systems, of choosing b/w either Case-1 or 2 is governed by CAP Theorem
@@ -16,6 +17,6 @@
 * `Availability`
   * Even if partiton b/w nodes, Outdated node can still process requests, although it will return outdated information
 
-## `CAP Theorem states that a distributed system can only have 2 out of these 3 properties at any given time `
+
 
 
