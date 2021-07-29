@@ -17,12 +17,21 @@ Command | Work
 ![image](https://user-images.githubusercontent.com/26667491/127487347-1def44f9-fe7c-45c1-8a08-e84c0c4d6762.png) | create new collection `explicitly`
 
 
-## `Creating Databases`
+### `Creating Databases`
 ![image](https://user-images.githubusercontent.com/26667491/127488475-5525843b-46de-4777-9e6f-e05640c659f3.png)
 
-## `Creating Collections`
+### `Creating Collections`
 ![image](https://user-images.githubusercontent.com/26667491/127488566-e25df411-6d86-48e7-be42-7d9d56b1ac1b.png)
 
 ---
 
-# ``
+# `Inserting Documents`
+
+Command | Output
+---- | ------
+
+
+
+
+![image](https://user-images.githubusercontent.com/26667491/127488750-83532e34-9180-4988-ab31-07a293bd6bdb.png)
+
