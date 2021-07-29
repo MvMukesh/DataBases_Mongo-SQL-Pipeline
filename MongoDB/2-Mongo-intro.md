@@ -25,13 +25,16 @@
       * Keeping multiple copies not only allows client to send Read request to any server, but it also `increasing read capacity` of cluster, 
       * also makes it `falt tolerant`, as even if a database server goes down. we have a backup of stored data on a different server
   
-  3. `Horizontal Scalability` => 
+  3. `Horizontal Scalability`
       * Possible due to shared data ability, n number of database server can be added as per requirements and by spliting data in small 
       chunks and saving it on n number of database servers this can be seen as `Sharding`
       ![image](https://user-images.githubusercontent.com/26667491/127448112-8acd6103-bbe9-4acd-b488-bb2de0716054.png)
       * and gives MongoDB ability to Execute, Read and Write queries at a much faster rate than on a single server. 
       Each of these servers can have a separate replica of its own. 
-      * MongoDB provides support for usual ![image](https://user-images.githubusercontent.com/26667491/127448754-4b187772-f98e-4319-a52f-14ad4657dbd5.png)
+      
+  4. `Rich Query`    
+      * MongoDB provides support for usual 
+ ![image](https://user-images.githubusercontent.com/26667491/127448754-4b187772-f98e-4319-a52f-14ad4657dbd5.png)
         * `CRUD operations` [Create, Read, Update, Delete] and also provides 
         * framework for `aggregation of data` like Grouping, Sorting, Filtering etc also provide
         * query operations for `text search` with help of `Regex` and `full text search` and 
