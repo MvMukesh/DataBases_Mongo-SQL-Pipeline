@@ -29,9 +29,7 @@ Command | Work
 
 Command | Output
 ---- | ------
+`Insert Single Document` | ![image](https://user-images.githubusercontent.com/26667491/127490435-201407b2-ce8d-4ad1-9ef6-8d495fcd6577.png)
+`Insert Multiple Document` | ![image](https://user-images.githubusercontent.com/26667491/127490513-0ffd2afd-9d32-4725-ac8d-31d7d582ff14.png)
 
-
-
-
-![image](https://user-images.githubusercontent.com/26667491/127488750-83532e34-9180-4988-ab31-07a293bd6bdb.png)
 
