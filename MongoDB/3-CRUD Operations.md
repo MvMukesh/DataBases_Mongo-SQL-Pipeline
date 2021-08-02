@@ -39,10 +39,13 @@ Command | Output
 
 ---
 
-># `_id Field`
+># `_id Field` 
+>primary key for document 
+>unique all time (generate implicetly if not given)
 
 Command | Output
 ------  | -------
+ObjectId("6107b4b69a6be9cbce5c5996") <= hexadecimal field contain time stamp values => values for creation of this doc, a randome value and an incrementing counter value to uniquelly identify this document ==>> acts as a primary key for this document| ![image](https://user-images.githubusercontent.com/26667491/127835010-58f8e282-eba4-43b6-af85-73573a8594af.png)
 ![image](https://user-images.githubusercontent.com/26667491/127492253-7ce3b682-e9aa-43aa-93a3-2cd52214b917.png) | ![image](https://user-images.githubusercontent.com/26667491/127492276-ab4115f7-79ba-4b88-aa54-7933b0168729.png)
 ![image](https://user-images.githubusercontent.com/26667491/127492330-5fa52760-f332-428b-a8a9-c71ce1078600.png) | ![image](https://user-images.githubusercontent.com/26667491/127492377-50913795-3928-41af-bd4a-0c6313184f88.png)
 ![image](https://user-images.githubusercontent.com/26667491/127492505-e8d211ee-34cf-4978-b325-dea7c3f26297.png) | ![image](https://user-images.githubusercontent.com/26667491/127492531-93435451-3bd0-4626-855e-47f87669bab8.png)
