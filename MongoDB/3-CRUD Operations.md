@@ -71,8 +71,8 @@ Command | Output
 ># `Backup and Restore`
 Command | Output
 ------  | -------
-Taking Backup of Database | ![image](https://user-images.githubusercontent.com/26667491/127495370-89053cb2-8828-4383-84e4-93cae09cef00.png)
-Restoring from Backup DataBase | ![image](https://user-images.githubusercontent.com/26667491/127495407-1c15a32a-3c6f-47f0-b673-581c8255f9e2.png)
+Taking Backup in Binary form | ![image](https://user-images.githubusercontent.com/26667491/127495370-89053cb2-8828-4383-84e4-93cae09cef00.png)
+Restoring from binary data(Backup DataBase) | ![image](https://user-images.githubusercontent.com/26667491/127495407-1c15a32a-3c6f-47f0-b673-581c8255f9e2.png)
 
 ---
 
