@@ -1,6 +1,6 @@
 # Pymongo
 
-Interactive Clint for mongoBD => python driver to interact with mongoDB
+Interactive Clint for mongoDB => python driver to interact with mongoDB
 * Helps us in interacting with mongoDB using Jupyter notebook
 * (PyMongo Docs)[https://pymongo.readthedocs.io/en/stable/index.html]
 * pip install pymongo
