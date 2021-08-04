@@ -13,8 +13,10 @@ Pipeline is used to perform miltiple steps sequencly
 * Last stage returns output
 
 
-> *`Aggregation Pipeline defined by aggregation method`
-  * inside this pass Pipelines stages as array
-  * documnets passed inside stages are in sequences
-  * Arrays are defined by `aggregation_stage` operators
+*`Aggregation Pipeline defined by aggregation method`
+* inside this pass Pipelines stages as array
+* documnets passed inside stages are in sequences
+* Arrays are defined by `aggregation_stage` operators
+![image](https://user-images.githubusercontent.com/26667491/128189145-df27897a-0985-4216-9ccc-82cd1b89a8b1.png)
+
   
