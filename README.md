@@ -1,5 +1,5 @@
 # Notes-DS
-Data Science Notes 
+How to Connect SQL and Mongo 
 
 `Path`
 * First start SQL server
