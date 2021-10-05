@@ -4,7 +4,7 @@ Data Science Notes
 `Path`
 * First start SQL server
 * SQL: /usr/local/mysql/bin/mysql -uroot -p
-
+-------------
 
 * Mongod: /users/mvon/mongodb/bin/mongod --dbpath /Users/mvon/mongodb-data => if downloaded using .tgz file
 * Mongo: /Users/mvon/mongodb/bin/mongo
