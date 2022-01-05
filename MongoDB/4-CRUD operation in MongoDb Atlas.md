@@ -1,6 +1,6 @@
 # CRUD operation Using ATLAS
 
-(Atlas)[https://cloud.mongodb.com]
+[Atlas](https://cloud.mongodb.com)
 Action | How
 ---- | ----
 Create a db user | ![image](https://user-images.githubusercontent.com/26667491/127851562-9deee13b-7b66-4d32-b061-1e86d9de6ce0.png)
