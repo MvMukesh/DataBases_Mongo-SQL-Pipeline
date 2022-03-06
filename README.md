@@ -9,4 +9,4 @@ How to Connect SQL and Mongo
 * Mongod: /users/mvon/mongodb/bin/mongod --dbpath /Users/mvon/mongodb-data => if downloaded using .tgz file
 * Mongo: /Users/mvon/mongodb/bin/mongo
 * Import to mongo => if path variable not set => /Users/mvon/mongodb/bin/mongoimport --db school --collection student --file path.extension --jsonArray(type)
-* (Atlas)[https://www.mongodb.com/cloud/atlas]
+* [Atlas](https://www.mongodb.com/cloud/atlas)
